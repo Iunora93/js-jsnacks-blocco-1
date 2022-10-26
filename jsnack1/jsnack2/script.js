@@ -14,3 +14,12 @@ console.log(lastNumber);
 
 let result = number + numberS + lastNumber;
 console.log(result);
+
+/* let amount = 0;
+
+for (let i = 0; i < 3; i++) {
+    const number = Number(prompt("inserisci un numero"));
+    console.log(number);
+    amount = amount + number;
+}
+console.log(`Totale: $(amount)`); */
