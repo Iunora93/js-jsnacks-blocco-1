@@ -9,12 +9,10 @@ console.log(firstWord);
 const secondWord = prompt("scrivi la seconda parola");
 console.log(secondWord);
 
-if ( firstWord > secondWord) {
-    alert("la prima parola è più lunga")
-    console.log(firstWord)
-} else if (firstWord < secondWord) {
-    alert("la seconda parola è più lunga")
-    console.log(secondWord)
+if ( firstWord.length > secondWord.length) {
+    console.log(secondWord, firstWord)
+} else if (secondWord.length > firstWord.length) {
+    console.log(firstWord, secondWord)
 } else {
     alert("le parole sono della stessa lunghezza")
     console.log(firstWord, secondWord)
