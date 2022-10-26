@@ -9,7 +9,7 @@ for (let i = 0; i < listName.length; i++) {
     checkName === listName[i];
     if( checkName === listName ) {
         alert("hai l'accesso")
-    } else {
+    } else if ( listName !== checkName ) {
         alert("non hai l'accesso")
     }
 } 
